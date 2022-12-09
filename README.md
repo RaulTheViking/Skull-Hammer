@@ -1,2 +1,2 @@
 # Skull-Hammer
-Project of Skull Hammer Company
+Project of the Skull Hammer Company
