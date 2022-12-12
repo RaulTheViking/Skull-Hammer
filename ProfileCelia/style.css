@@ -18,6 +18,12 @@
     margin-left: 4vh;
     color: white;
 }
+
+.company, a {
+    text-decoration: none;
+    color: white;
+}
+
 span{
     color: #FFCA41
 }
@@ -90,7 +96,6 @@ span{
         .button {
             font-size: 2vh;
             border-color: black;
-            border-style: ridge;
             background-color: #FFCA41;
             color: white;
             padding-top: 0.5vh;
@@ -99,6 +104,14 @@ span{
             padding-right: 1.5vh;
             border-radius: 2vh;
             margin-left: 20vh;
+            transition: all .2s ease-in-out; 
+        }
+        
+        .button:hover {
+            transform: scale(0.95);
+        }
+        .buttoncall {
+            margin-top: -5.5vh;
         }
 
                                 /*  Footer */
