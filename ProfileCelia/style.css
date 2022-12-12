@@ -1,8 +1,8 @@
 * { 
     font-family: "Jost";
-}
-
-                                                /*  Navbar */
+}                 
+                                        
+                                /*  Navbar */
 .navbar{
     display: flex;
     position: absolute;
@@ -55,33 +55,39 @@ span{
     padding-right: 2.5vh;
     text-decoration: none;
 }
-                                     /*  Main */
-.main-container {
+
+
+                                 /*  Main */
+
+.prof-container {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     padding-top: 15vh;
-    padding-bottom: 1vh;
-}
-    
-    .main-picture {
-      
+}  
+    .main-profile-picture {
+        margin-left: 45vh;
     }
-    .text-container {
+    .main-profile-container {
         padding-left: 15vh;
     }
-
-        .main-title {
-            color: #ff7f99;
-            font-size: 8vh;
-            line-height: 6.5vh;
-            margin-bottom: -0.5vh;
+        .main-profile-name {
+            font-size: 10vh;
+            color: #FF7F99;
+            line-height: 8vh;
+            font-weight: lighter;
         }
 
-        .main-text {
-            font-size: 2vh;
+        .main-profile-subtext {
+            margin-top: -5vh;
+            font-weight: lighter;
         }
 
-        .main-button {
+        .main-profile-text {
+            text-align: justify;
+            padding-bottom: 2vh;
+        }
+
+        .button {
             font-size: 2vh;
             border-color: black;
             border-style: ridge;
@@ -92,10 +98,10 @@ span{
             padding-left: 1.5vh;
             padding-right: 1.5vh;
             border-radius: 2vh;
-
+            margin-left: 20vh;
         }
 
-                                    /*  Footer */
+                                /*  Footer */
 
 
 .backgroundfooter {
