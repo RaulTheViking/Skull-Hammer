@@ -1,9 +1,10 @@
-* { 
+* {
     font-family: "Jost";
-}
-
-                                                /*  Navbar */
-.navbar{
+}                        
+                                            
+                                            
+                                            /*  Navbar */
+ .navbar{
     display: flex;
     position: absolute;
     background-color: #FF7F99;
@@ -26,6 +27,7 @@ span{
     justify-content: space-evenly;
     align-items: flex-start;
     margin-top: 2vh;
+    
 }
 
 .nav ul {
@@ -33,13 +35,14 @@ span{
     align-items: left;
     list-style: none;
     padding-left: 145vh;
+    
 }
 .nav li{
     margin-left: 2vh;
     color: white;
     font-weight: lighter;
 }
-
+                                              /*  Contact */
 .contact{
     border-radius: 1.8vh;
     background-color: #ef9393;
@@ -53,52 +56,76 @@ span{
     padding-right: 2.5vh;
     text-decoration: none;
 }
-                                     /*  Main */
-.main-container {
+
+.form-main{
     display: flex;
     justify-content: center;
-    padding-top: 15vh;
-    padding-bottom: 1vh;
+    padding-top: 14vh;
+    padding-bottom: 10vh;
+    margin-right: 20vh;
 }
-    
-    .main-picture {
-      width:70vh;
-      height: 70vh;
-      border-radius: 50% 0 50% 50%;
-    }
-    .text-container {
-        padding-left: 15vh;
-    }
 
-        .main-title {
-            color: #ff7f99;
-            font-size: 8vh;
-            line-height: 6.5vh;
-            margin-bottom: -0.5vh;
-        }
+form{
+   
+    font-family: "Jost";
+    font-size: 30px;
+    align-items: center;
+    width: 100px;
+}
+fieldset{
+    background-color:  #FF7F99;
+    border-color: black;
+    border-style: hidden;
+}
 
-        .main-text {
-            font-size: 2vh;
-        }
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-        .main-button {
-            font-size: 2vh;
-            border-color: black;
-            background-color: #FFCA41;
-            color: white;
-            padding-top: 0.5vh;
-            padding-bottom: 0.5vh;
-            padding-left: 1.5vh;
-            padding-right: 1.5vh;
-            border-radius: 2vh;
-            transition: all .2s ease-in-out; 
-        }
+legend{
+    background-color:#FFCA41 ;
+    border-radius: 50%;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-right: 1.5vh;
+    padding-left: 1.5vh;
+    margin-left: 8.5vh; 
+}
 
-        .main-button:hover {
-            transform: scale(0.95);
-        }
-
-                                    /*  Footer */
+input{
+    background-color: rgba(255, 255, 255, 0.293);
+    border-color: white;
+    border-style: none;
+    color:black;
+    cursor: pointer;
+    font-size: 30px;
+}
+input:hover{
+    background-color: #0000001d;
+} 
+button{
+    margin-top: 2vh;
+    height: 50px;
+    width: 150px;
+    background-color: #FFCA41;
+    border-radius: 30px;
+    text-align: center;
+    margin-left: 1vh;
+    border-style: none;
+    color: rgb(26, 26, 35);
+    font-family: "Jost";
+    font-size: 20px;
+}
+button:hover{
+    background-color: transparent;
+    border-color: white;
+    border-style: ridge;
+    color:white;
+    cursor: pointer;
+}
+                                            /*  Footer */
 
 
 .backgroundfooter {
@@ -130,9 +157,6 @@ span{
             transform: scale(0.95);
             
         }
-
-        
-
 
             .profilename {
                 font-size: 3.5vh;
