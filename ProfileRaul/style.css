@@ -151,9 +151,17 @@ span{
         padding-left: 15vh;
     }
 
-        .profilepictures {
-            border-radius: 50%;
-        }
+    .profilepictures {
+        border-radius: 50%;
+        transition: all .2s ease-in-out; 
+    }
+
+    .profilepictures:hover {
+        
+        transform: scale(0.95);
+        
+    }
+
 
             .profilename {
                 font-size: 3.5vh;
