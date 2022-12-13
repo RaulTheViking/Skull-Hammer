@@ -1,7 +1,15 @@
 * { 
     font-family: "Jost";
 }                 
-                                        
+                             
+.celiaprofile{
+    width: 50vh;
+    height:48vh;
+    border-radius: 50%;
+   
+}
+
+
                                 /*  Navbar */
 .navbar{
     display: flex;
