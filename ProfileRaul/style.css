@@ -1,8 +1,8 @@
 * { 
     font-family: "Jost";
-}
-
-                                                /*  Navbar */
+}                 
+                                        
+                                /*  Navbar */
 .navbar{
     display: flex;
     position: absolute;
@@ -18,6 +18,12 @@
     margin-left: 4vh;
     color: white;
 }
+
+.company, a {
+    text-decoration: none;
+    color: white;
+}
+
 span{
     color: #FFCA41
 }
@@ -55,35 +61,53 @@ span{
     padding-right: 2.5vh;
     text-decoration: none;
 }
-                                     /*  Main */
-.main-container {
+
+
+                                 /*  Main */
+
+.prof-container {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     padding-top: 15vh;
-    padding-bottom: 1vh;
-}
-    
-    .main-picture {
-      width:80vh;
-      height: 70vh;
-      border-radius: 50% 0 50% 50%;
+}  
+    .main-profile-picture {
+        margin-left: 45vh;
+        background: #FF7F99;
+        border-radius: 50% 0 50% 50%;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: -30px;
+        height: 49vh;
     }
-    .text-container {
+
+        .Celia-picture {
+            width: 50vh;
+            height:48vh;
+            border-radius: 50%;
+        }
+
+    .main-profile-container {
         padding-left: 15vh;
     }
-
-        .main-title {
-            color: #ff7f99;
-            font-size: 8vh;
-            line-height: 6.5vh;
-            margin-bottom: -0.5vh;
+        .main-profile-name {
+            font-size: 10vh;
+            color: #FF7F99;
+            line-height: 9vh;
+            font-weight: lighter;
         }
 
-        .main-text {
-            font-size: 2vh;
+        .main-profile-subtext {
+            margin-top: -5vh;
+            font-weight: lighter;
         }
 
-        .main-button {
+        .main-profile-text {
+            text-align: justify;
+            padding-bottom: 2vh;
+        }
+
+        .button {
             font-size: 2vh;
             border-color: black;
             background-color: #FFCA41;
@@ -93,14 +117,18 @@ span{
             padding-left: 1.5vh;
             padding-right: 1.5vh;
             border-radius: 2vh;
+            margin-left: 20vh;
             transition: all .2s ease-in-out; 
         }
-
-        .main-button:hover {
+        
+        .button:hover {
             transform: scale(0.95);
         }
+        .buttoncall {
+            margin-top: -5.5vh;
+        }
 
-                                    /*  Footer */
+                                /*  Footer */
 
 
 .backgroundfooter {
@@ -108,6 +136,7 @@ span{
     position: absolute;
     right: 0;
     left: 0;
+    margin-top: 6vh;
 }
 
 .picturecontainer {
@@ -115,7 +144,7 @@ span{
     justify-content: center;
     margin-right: 10vh;
     margin-top: 5vh;
-    margin-bottom: 7vh;
+    margin-bottom: 10vh;
 }
 
     .profilecontainer {
